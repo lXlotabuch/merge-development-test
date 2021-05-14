@@ -25,7 +25,7 @@ export const ButtonStyled = styled.button`
     background-color: ${primaryBlueHover};
   }
   &:active {
-    box-shadow: 0px 2px 10px rgba(6, 91, 234, 0.83);
+    box-shadow: 0px 2px 2px rgba(6, 91, 234, 0.83);
   }
   &:disabled {
     box-shadow: none;

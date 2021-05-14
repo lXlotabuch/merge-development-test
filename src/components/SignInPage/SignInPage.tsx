@@ -1,13 +1,16 @@
 import React from 'react';
-import { Form } from '../components/Form/Form';
-import { Container, FormWrapper, SliderWrapper } from './SignInPageStyled';
-import { PageTitle } from '../components/PageTitle/PageTitle';
-import { Link } from '../components/Link/Link';
+import { Form } from '../Form/Form';
+import { Container, FormWrapper, SwiperWrapper } from './SignInPageStyled';
+import { PageTitle } from '../PageTitle/PageTitle';
+import { Link } from '../Link/Link';
+import { SwiperContainer } from '../SwiperContainer/SwiperContainer';
 
 export const SignInPage: React.FC = () => {
   return (
     <Container>
-      <SliderWrapper></SliderWrapper>
+      <SwiperWrapper>
+        <SwiperContainer />
+      </SwiperWrapper>
       <FormWrapper>
         <PageTitle />
         <Form />
